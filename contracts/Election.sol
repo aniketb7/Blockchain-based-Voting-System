@@ -1,0 +1,17 @@
+// SPDX-License-Identifier: MIT
+pragma solidity >=0.4.22 <0.9.0;
+
+contract Election{
+    
+       // Store the candidate
+       // read the candidate
+      // constructor
+      string public candidate;
+
+      constructor () public {
+          candidate = "Candidate 1";  
+      }
+      
+
+
+}
